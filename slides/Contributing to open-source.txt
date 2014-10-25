@@ -1,0 +1,75 @@
+Contributing to open-source
+UH CSGirls && CougarCS
+
+Why?
+share code
+improve code
+solve problems
+together
+
+What’s open-source
+
+Write code
+	your own projects
+	host online: GitHub, Bitbucket, etc.
+	choose license: http://choosealicense.com/
+
+
+JUST DO IT.
+
+Don’t write code
+Goal:
+
+Write as little code as possible.
+
+Don’t write code
+Find open-source code that does what you want.
+
+You can always refactor later.
+
+Finding good code is a skill.
+
+
+Don’t write code
+
+Send thank you notes
+
+
+Or money: https://gratipay.com/
+
+
+Read code
+Code reflects a thought process.
+
+Curiosity.
+
+Look for the big picture: architecture.
+
+Communicate
+use code → join the developers
+the direction of the community
+	what to build next
+	what needs fixing
+
+mailing lists, IRC, forums
+
+Contributions
+bug reports
+documentation
+
+Contributions
+code: patches
+	code style
+	git format-patch, diff
+tests
+
+Contributions
+Keep trying
+	people are busy
+
+Congrats! You might be the new maintainer.
+
+Local people
+User groups
+Hackathons
+Conferences
