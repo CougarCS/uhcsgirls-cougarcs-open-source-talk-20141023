@@ -1,0 +1,192 @@
+Contributions to open-source projects
+	Open-source
+		What is it?
+			A way of sharing code for others to use.
+			So that we can
+				solve problems together,
+				improve software together,
+				learn together,
+				have fun!
+		You might have used open-source:
+			Firefox, Chrome, Android, gcc, Java
+			Linux, Apache, MySQL, WordPress
+			lots more
+			Microsoft and Apple contribute to open-source
+				https://opensource.apple.com/
+				http://www.microsoft.com/en-us/openness/
+		Why contribute
+			give back!
+			fix a bug or add a feature
+			work on real-world code used by others
+				get feedback
+			become a better developer
+				think more about abstractions
+				how can you make this code reusable and generic
+	OK, I want to contribute, but how
+		Write your own code
+			Come up with projects
+				Work on them bit-by-bit, continually
+			Make it open-source
+				host on GitHub
+					version control using Git
+					repository hosting
+					web pages: GitHub Pages
+				choose a license
+					different philosophies on how much to share
+					go to <http://choosealicense.com/> and find out more
+			But I have bad code! It's embarrassing!
+				Don't worry. All code is bad at first.
+					Everybody is embarrassed of parts of their code; you can't be perfect.
+					Cult of Done
+						http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html
+				Get it out there.
+				Release early, release often
+					tighter feedback loop
+		Don't write your own code
+			Wait, what? You just said...
+				Yes, I know but...
+					You goal should be to
+						write as little code as possible
+					Writing code takes time
+						designing
+						documenting
+						testing
+						debugging
+				Save time!
+				If there is something you want to do, find open-source code that does it
+					Most of the common tasks are already done
+						don't reinvent the wheel
+					Many libraries to choose from
+						choosing is a skill
+							look for what others use
+							commonly-used libraries are more likely to be maintained
+						don't give up if you see too many libraries
+							if you can't choose, try them
+							you can always change to another library later if you abstract the task
+					Read the docs and look for example code
+						code search engines
+						Stack Overflow
+			Thank you notes!
+				Open-source developers love getting thank you notes!
+					It will make their day.
+				You can also send some spare change over to people you think are doing cool work
+					https://gratipay.com/
+		Read code
+			You will need to learn to read other people's code
+				helps you learn how others think
+				you will often need to be able to read code you've never seen before
+					when you work on a team at work or on open-source
+			Curiosity
+				How does that library actually do what it does?
+			Look for well-written code
+				lots of good projects and descriptions here: <http://aosabook.org/>
+				get the big idea: architecture
+		Communicate
+			You need to know the direction of the community
+				especially for larger projects
+				find out
+					what do people want to build next
+					potential bugs
+			Find people
+				Look for a mailing list or IRC channel
+				tips:
+					technical discussion is usually on mailing lists
+					casual chatter is on IRC channels
+					different etiquette in each form of communication
+					depends per project
+						hang out for a week or so and find out how the project runs
+				some communities suck — just a fact of life
+					find people that are welcoming
+			Ask questions
+				don't be afraid to ask questions
+					if there is something that you don't understand, that is a bug in the documentation
+			Answer questions
+				other people are out there that are just starting
+					you can help them too!
+			Discuss ideas
+				blog
+					if you have an idea, write about it
+						post to twitter (use hashtags!)
+						post to reddit
+				writing makes ideas clearer
+				talk about things that interest you
+					having fun and encouraging others is what makes open-source work
+		File bug reports
+			find the bug tracker for the project
+			Writing a good bug report is very appreciated
+				Try to include as many details as possible
+				Have steps to reproduce the bug
+				Minimal working example
+					: instead of sending all the code where you found the bug,
+					: send a small portion that demonstrates the bug
+					: independent of any other code
+					http://en.wikipedia.org/wiki/Minimal_Working_Example
+			Tips on how to write bug report: http://www.chiark.greenend.org.uk/~sgtatham/bugs.html
+			Lots of bugs to file
+				Can't install
+					everybody has a different setup
+					showing where the code doesn't work improves portability
+		Contribute code / fix bugs / add documentation
+			how to find bugs
+				write a lot of code and bugs show up
+					sometimes those bugs aren't in your own code
+						don't be afraid to go look at the code of the libraries you use
+					again, no code is perfect
+				look at the bug tracker and look for easy bugs when starting
+			documentation
+				software always needs better docs
+				if you're confused, somebody else may be as well
+					: if you struggled to figure out a problem you had, help
+					: future coders and submit improved documentation
+				write an example
+					: if you're using the library in a particular way,
+					: share an example. This is bloggable!
+				open-source is often international
+					not everyone speaks English as a first language
+					they will appreciate fixes to their grammar and spelling
+			patching: sending the changes to the authors
+				tips
+					small patches
+						one bug-fix per patch
+					make sure you follow the style of the code you are patching
+						braces, indentation (tabs/spaces)
+					update docs if you need to
+					write tests for your changes
+					commits should be clear and informative
+				GitHub: pull requests
+				other places: patch file
+					generated by running
+						git format-patch
+						diff -up
+					https://www.kernel.org/doc/Documentation/SubmittingPatches
+				not all patches are accepted at first
+					keep at it
+					discuss the changes you need to make with the author
+				if the author doesn't respond
+					They may be busy
+					They might have missed the notification e-mail
+					Send reminders
+			help maintain code
+				: if someone is busy and you step up, you could end up being
+				: in charge of a project!
+				if you get a chance, go for it
+
+Find bugs, write tests, write docs for your dependencies.
+
+Projects are looking for beginners. Beginners and advanced users see things differently. The project’s need fresh eyes.
+
+	Find local people to work with
+		programming is even more fun when you've got someone to work with
+		go to user groups
+			http://www.meetup.com/
+		go to conferences
+			see if they have student sponsorships
+
+More info
+	https://developers.google.com/open-source/soc/
+	https://gnome.org/opw/
+	http://openhatch.org/
+	http://blog.newrelic.com/2014/05/05/open-source_gettingstarted/
+	https://speakerdeck.com/missaugustina/start-contributing-to-perl-its-easy
+	http://24pullrequests.com/
+	https://drive.google.com/open?id=0B5YDgKHAbP5eeWhqYUxmeG9FT00&authuser=0
